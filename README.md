@@ -20,12 +20,12 @@ The output of augur is a series of JSONs that can be used to visualize your resu
 
 
 ## Documentation
-* [Overview of how Augur fits together with other Nextstrain tools](https://nextstrain.org/docs/getting-started/introduction#open-source-tools-for-the-community)  
-* [Overview of Augur usage](https://nextstrain.org/docs/bioinformatics/introduction-to-augur)  
-* [Technical documentation for Augur](https://nextstrain-augur.readthedocs.io/en/stable/installation/installation.html)  
-* [Contributor guide](https://github.com/nextstrain/.github/blob/master/CONTRIBUTING.md)  
-* [Project board with available issues](https://github.com/orgs/nextstrain/projects/6)   
-* [Developer docs for Augur](./DEV_DOCS.md)  
+* [Overview of how Augur fits together with other Nextstrain tools](https://nextstrain.org/docs/getting-started/introduction#open-source-tools-for-the-community)
+* [Overview of Augur usage](https://nextstrain.org/docs/bioinformatics/introduction-to-augur)
+* [Technical documentation for Augur](https://nextstrain-augur.readthedocs.io/en/stable/installation/installation.html)
+* [Contributor guide](https://github.com/nextstrain/.github/blob/master/CONTRIBUTING.md)
+* [Project board with available issues](https://github.com/orgs/nextstrain/projects/6)
+* [Developer docs for Augur](./DEV_DOCS.md)
 
 
 
@@ -53,6 +53,7 @@ Augur uses some common external bioinformatics programs which you'll need to ins
 
 On macOS, you can install these external programs using Homebrew with:
 ```bash
+brew tap brewsci/bio
 brew install mafft iqtree raxml fasttree vcftools
 ```
 
